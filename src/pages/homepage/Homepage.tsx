@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../logo.svg';
-import styles from './Homepage.module.css';
+import styles from './Homepage.module.scss';
 
 export function Homepage() {
   const [count, setCount] = useState(0);
